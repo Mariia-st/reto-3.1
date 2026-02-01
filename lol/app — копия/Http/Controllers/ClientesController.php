@@ -149,6 +149,6 @@ class ClientesController extends Controller
 
         Clientes::destroy($id);
 
-        return redirect('clientes')->with('mensaje', 'Cliente borrado.');
+        return redirect('clientes')->with('mensaje', 'Cliente ha sido borrado');
     }
 }
